@@ -10,6 +10,7 @@ html, body {
 
 
 h2 {
+  font-family: arial;
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -25,7 +26,8 @@ main {
 }
 
 header {
-  background: #eee;
+  background: #e0e0d8;
+  border: 1px solid #608297;
   display: flex;
   // justify-content: center;
   align-items: center;
@@ -79,7 +81,9 @@ header {
     &__skills {
       overflow: hidden;
       li {
-        background: #ccc;
+        background: #ec8;
+        //border-left: 2px solid #c86;
+        //border-radius: 0 4px 4px 0;
         border-radius: 4px;
         display: inline-block;
         margin: 4px 4px 4px 0;
