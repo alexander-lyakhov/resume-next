@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font: 16px verdana;
+  background: #404040;
+  min-height: 100vh;
+}
+
+main {
+  background: #fff;
+  width: 960px;
+  height: 100vh;
+  margin: auto;
+  padding: 1rem;
+}
+
+header {
+  background: #eee;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+header .img-wrapper {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 1;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+header .img-wrapper img {
+  box-sizing: border-box;
+  transform: scale(0.7);
+}
+header .profile-title {
+  flex-grow: 1;
+  text-align: center;
+  padding: 0 1rem;
+}
+header .profile-title__name {
+  font: 2rem arial, verdana;
+  border-bottom: 1px solid #c0c0c0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+header .profile-title__role {
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+/*# sourceMappingURL=index.css.map */
