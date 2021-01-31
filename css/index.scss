@@ -1,0 +1,91 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  font: 16px verdana;
+  background: #404040;
+  min-height: 100vh;
+}
+
+
+h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+main {
+  background: #fff;
+  width: 960px;
+  height: 100vh;
+  margin: auto;
+  padding: 1rem;
+}
+
+header {
+  background: #eee;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  .img-wrapper {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 1;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    img {
+      // object-fit: str;
+      box-sizing: border-box;
+      transform: scale(.7);
+    }
+  }
+  .profile-title {
+    // background: #edc;
+    flex-grow: 1;
+    text-align: center;
+    padding: 0 1rem;
+    &__name {
+      font: 2rem arial, verdana;
+      border-bottom: 1px solid #c0c0c0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      // margin: 0 1rem;
+    }
+
+    &__role {
+      font-size: 1.25rem;
+      line-height: 2;
+    }
+  }
+}
+
+.content {
+  font-size: .875rem;
+  padding: .5rem 0;
+
+  &-block {
+    line-height: 1.4;
+    padding: .5rem 0;
+
+    &__skills {
+      overflow: hidden;
+      li {
+        background: #ccc;
+        border-radius: 4px;
+        display: inline-block;
+        margin: 4px 4px 4px 0;
+        padding: 2px 8px;
+        cursor: default;
+      }
+    }
+  }
+}

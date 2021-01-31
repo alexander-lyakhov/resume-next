@@ -9,6 +9,13 @@ html, body {
   min-height: 100vh;
 }
 
+h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 main {
   background: #fff;
   width: 960px;
@@ -53,6 +60,26 @@ header .profile-title__name {
 header .profile-title__role {
   font-size: 1.25rem;
   line-height: 2;
+}
+
+.content {
+  font-size: 0.875rem;
+  padding: 0.5rem 0;
+}
+.content-block {
+  line-height: 1.4;
+  padding: 0.5rem 0;
+}
+.content-block__skills {
+  overflow: hidden;
+}
+.content-block__skills li {
+  background: #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 4px 4px 4px 0;
+  padding: 2px 8px;
+  cursor: default;
 }
 
 /*# sourceMappingURL=index.css.map */
