@@ -1,0 +1,44 @@
+﻿.header-01 {
+  background: #e0e0d8;
+  border: 1px solid #608297;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  .img-wrapper {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 1;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    img {
+      // object-fit: str;
+      box-sizing: border-box;
+      transform: scale(.7);
+    }
+  }
+  .profile-title {
+    // background: #edc;
+    flex-grow: 1;
+    text-align: center;
+    padding: 0 1rem;
+    &__name {
+      font: 2rem arial, verdana;
+      border-bottom: 1px solid #c0c0c0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      // margin: 0 1rem;
+    }
+
+    &__role {
+      font-size: 1.25rem;
+      line-height: 2;
+    }
+  }
+}

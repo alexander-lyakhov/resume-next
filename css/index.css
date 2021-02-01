@@ -1,3 +1,24 @@
+.header-02 {
+  background: #e0e0d8;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.header-02 .img-wrapper {
+  border: 3px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 1;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.header-02 .img-wrapper img {
+  box-sizing: border-box;
+  transform: scale(0.7);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,42 +47,7 @@ main {
 }
 
 header {
-  background: #e0e0d8;
-  border: 1px solid #608297;
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-}
-header .img-wrapper {
-  border: 3px solid #fff;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 0 0 1;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-}
-header .img-wrapper img {
-  box-sizing: border-box;
-  transform: scale(0.7);
-}
-header .profile-title {
-  flex-grow: 1;
-  text-align: center;
-  padding: 0 1rem;
-}
-header .profile-title__name {
-  font: 2rem arial, verdana;
-  border-bottom: 1px solid #c0c0c0;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  line-height: 1.5;
-}
-header .profile-title__role {
-  font-size: 1.25rem;
-  line-height: 2;
+  display: none;
 }
 
 .content {

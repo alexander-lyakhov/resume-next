@@ -1,0 +1,24 @@
+﻿.header-02 {
+  background: $bg-sand;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  .img-wrapper {
+    border: 3px solid #fff;
+    //border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 1;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    img {
+      // object-fit: str;
+      box-sizing: border-box;
+      transform: scale(.7);
+    }
+  }
+}
