@@ -1,4 +1,17 @@
 ﻿$bg-sand: #e0e0d8;
+$blue: #608297;
+
+.accent-left {
+  border-left: 3px solid #000;
+  margin-bottom: .5rem;
+  padding: 0 0 0 .5rem;
+}
+
+.accent-bottom {
+  border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 1rem;
+  padding: 0 0 .25rem 0;
+}
 
 @import '_header-02.scss';
 
@@ -6,6 +19,7 @@
   margin: 0;
   padding: 0;
 }
+
 html, body {
   font: 16px verdana;
   background: #404040;
@@ -19,6 +33,7 @@ h2 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-bottom: .5rem;
 }
 
 main {
