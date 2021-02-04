@@ -1,7 +1,7 @@
-.accent-left, .header-02 .profile h2 {
+.accent-left, h2, .header-02 .profile h2 {
   border-left: 3px solid #000;
   margin-bottom: 0.5rem;
-  padding: 0 0 0 0.5rem;
+  padding: 0 0.5rem;
 }
 
 .accent-bottom {
@@ -28,7 +28,7 @@
   transform: scale(0.9);
 }
 .header-02 .profile {
-  background: #e8e8e8;
+  background: #f0f0f0;
   margin-right: 1rem;
   padding: 1rem;
 }
@@ -102,8 +102,9 @@ header {
   overflow: hidden;
 }
 .content-block__skills li {
-  background: #ec8;
-  border-radius: 4px;
+  color: #fff;
+  background: #202020;
+  border-radius: 3px;
   display: inline-block;
   margin: 4px 4px 4px 0;
   padding: 2px 8px;
